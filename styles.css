@@ -40,9 +40,9 @@ body {
 .days .time div span {
     position: relative;
     display: block;
-    width: auto;
+    min-width: 90px;
     height: 80px;
-    background-color: yellow;
+    background-color: rgb(204, 204, 0);
     color: #fff;
     font-weight: 300;
     display: flex;
@@ -54,7 +54,7 @@ body {
 }
 
 .days .time div span:nth-child(2) {
-    background: rgb(206, 206, 0);
+    background: rgb(167, 167, 1);
     height: 30px;
     font-size: 0.7em;
     letter-spacing: 0.2em;
